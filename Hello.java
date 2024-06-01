@@ -15,9 +15,25 @@ class Hello
         float l = 5.8f;
         double d = 5.8;
 
-        char c = 'k'; //literals
+        char c = 'k'; 
 
         boolean b = true;
+
+        //literals
+
+        // base 10
+        int num2 = 0b101;
+        System.out.println(num2);
+
+        // hexdecimal
+        System.out.println(0x101);
+
+        float num3 = 1_000_000_000;
+        System.out.println(num3);
+
+        char letter = '{';
+        letter++;
+        System.out.println(letter);
     }
     
 }
